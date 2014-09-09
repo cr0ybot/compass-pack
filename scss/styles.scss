@@ -1,0 +1,30 @@
+//
+// Styles
+//
+
+// The main output file. Import everything you need here.
+
+// Compass
+@import "compass";
+
+// CSS Reset
+@include global-reset;
+
+// Libs
+// Using Bootstrap or another Sass-compatible framework? Import it here.
+
+// Core
+@import "core/settings";
+@import "core/utilities";
+@import "core/mixins";
+@import "core/base";
+@import "core/typography";
+
+// Layout
+@import "layout/grid";
+
+// Modules
+// Make sure to import new ones as you create them
+@import "modules/header";
+@import "modules/footer";
+@import "modules/nav";
