@@ -51,3 +51,4 @@ Some project templates out there include a screen and print file as the main out
 ## To Do
 
 - Provide more explanation and reasoning behind folder/file structure
+- Add responsive design tips & media query mixins
