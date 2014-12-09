@@ -3,3 +3,29 @@
 //
 
 // Remember to check Compass first to see if a mixin already exists
+
+// My favorite media query mixin
+$break-small: 30em; //480px;
+$break-medium: 45em; //720px;
+$break-large: 75em; //1200px;
+$break-extralarge: 120em; //1920px;
+@mixin respond-to($media) {
+	// Mostly used for mobile nav menus, since you probably want the full one
+	// to show up on browsers that don't load the media queries
+    @if $media == small {
+        @media only screen and (max-width: $break-small) { @content; }
+    }
+    @else if $media == medium {
+        @media only screen and (min-width: $break-medium) { @content; }
+    }
+    @else if $media == large {
+        @media only screen and (min-width: $break-large) { @content; }
+    }
+    @else if $media == extralarge {
+        @media only screen and (min-width: $break-extralarge) { @content; }
+    }
+    // Support for custom queries, as long as you want min-width
+    @else {
+        @media only screen and (min-width: $media) { @content; }
+    }
+}

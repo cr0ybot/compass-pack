@@ -4,6 +4,13 @@
 
 // Global variables, like colors and sizes
 
-//$color-primary: #CCC;
-//$color-secondary: #999;
-//$color-tertiary: #333;
+// Color pallet
+$color-white: #FFF;
+$color-grey: #666;
+$color-black: #000;
+
+// Color assignments
+// Use these in your SASS so that you can easily swap them out
+$color-background: $color-white;
+$color-text: $color-black;
+$color-link: $color-grey;

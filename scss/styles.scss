@@ -15,13 +15,14 @@
 
 // Core
 @import "core/settings";
-@import "core/utilities";
+@import "core/typography";
 @import "core/mixins";
 @import "core/base";
-@import "core/typography";
+@import "core/utilities";
 
 // Layout
 @import "layout/grid";
+@import "layout/general";
 
 // Modules
 // Make sure to import new ones as you create them

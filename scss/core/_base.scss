@@ -3,3 +3,31 @@
 //
 
 // No classes/ids! Just the plain elements
+
+* {
+    box-sizing: border-box;
+}
+
+html {}
+
+body {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+ul, ol {}
+
+a {
+    &:hover, &:focus {}
+}
