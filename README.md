@@ -33,8 +33,8 @@ scss
 │   └───_nav.scss
 ├───pages
 │   └───index.scss
-├───config.rb
 └───styles.scss
+config.rb
 ```
 
 ### Layout & Skin
