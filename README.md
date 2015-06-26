@@ -1,7 +1,7 @@
 Compass Pack
 ============
 
-**PLEASE NOTE**: I've moved away from this in favor of a new workflow that drops Compass in favor of NPM, Grunt, and Bower: (front-end-init)[https://github.com/cr0ybot/front-end-init].
+**PLEASE NOTE**: I've moved away from this in favor of a new workflow that drops Compass in favor of NPM, Grunt, and Bower: [front-end-init](https://github.com/cr0ybot/front-end-init).
 
 A Sass starter project template with Compass config.rb
 
